@@ -98,7 +98,7 @@ function Home() {
         data-tip="Last modified date: 16/05/2020 - v2.2"
         style={{ textAlign: "center" }}
       >
-        COVID-19 Live Now
+        Global COVID-19 Live Tracker
       </h2>
       <ReactTooltip effect="solid" />
       <br />

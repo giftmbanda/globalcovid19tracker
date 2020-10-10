@@ -12,16 +12,6 @@ function About() {
       <br />
       <h2>About</h2>
       <br />
-      {/* <a href="https://ko-fi.com/I3I51NB3J" target="_blank">
-        <img
-          height="36"
-          src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2"
-          border="0"
-          alt="Buy Me a Coffee at ko-fi.com"
-        />
-      </a> */}
-      <br />
-      {/* <br />
       <div
         style={{
           padding: "20px",
@@ -31,34 +21,12 @@ function About() {
           borderRadius: "20px",
         }}
       >
-        <h4>Who built this website?</h4>
+        <h4>About this site</h4>
         <div style={{ fontSize: "20px" }}>
-          This site is created by Hong Ly. A software engineer and content
-          creator.
-        </div>
-        <br />
-        <h4>How to connect?</h4>
-        <div style={{ fontSize: "20px" }}>
-          You can connect me via linkedIn{" "}
-          <a href="https://www.linkedin.com/in/hong-ly/" target="_blank">
-            here
-          </a>
-          .
-        </div>
-        <br />
-        <h4>Wonder if I have a YouTube channel?</h4>
-        <div style={{ fontSize: "20px" }}>
-          Click{" "}
-          <a
-            href="https://www.youtube.com/channel/UCjJHir6dFiHSOe5EayRoSMw"
-            target="_blank"
-          >
-            here
-          </a>{" "}
-          will redirect you to my YouTube.
+          A Global Covid-19 Live Tracker app developed in React, makes use of <a href="https://corona.lmao.ninja" target="_blank"> corona.lmao.ninja </a>API. It offers live global covid-19 stats, and also individual countries stats. created by <a href="https://giftmbanda.com/" target="_blank"> Gift Banda </a>
         </div>
       </div>
-      <br /> */}
+      <br />
     </div>
   );
 }

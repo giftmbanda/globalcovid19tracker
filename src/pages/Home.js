@@ -16,7 +16,7 @@ function Home() {
   const [results, setResults] = useState([]);
   const [searchCountries, setSearchCountries] = useState("");
   const [loading, setLoading] = useState(true);
-  const [darkTheme, setDarkTheme] = useState(false);
+  const [darkTheme, setDarkTheme] = useState(true);
 
   useEffect(() => {
     axios
@@ -122,7 +122,6 @@ function Home() {
         >
           <Card.Body>
             <Card.Title>Cases</Card.Title>
-            {/* <Card.Text>{latest.cases}</Card.Text> */}
             <NumberFormat
               value={latest.cases}
               displayType={"text"}

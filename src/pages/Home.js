@@ -21,7 +21,7 @@ function Home() {
   useEffect(() => {
     axios
       .all([
-        axios.get("https://corona.lmao.ninja/v2/all"),
+        axios.get("https://disease.sh/v3/covid-19/all"),
         axios.get("https://disease.sh/v3/covid-19/countries"),
         //axios.get("https://corona.lmao.ninja/v2/countries"),
       ])
@@ -53,7 +53,8 @@ function Home() {
         className="text-center"
         style={{ margin: "10px" }}
       >
-        <Card.Img variant="top" src={data.countryInfo.flag} />
+        //<Card.Img variant="top" src={data.countryInfo.flag} />
+         <Card.Img variant="top" src={data.countryInfo.flag} />
         <Card.Body>
           <Card.Title>{data.country}</Card.Title>
           <Card.Text>Cases {data.cases}</Card.Text>

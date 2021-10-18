@@ -22,7 +22,8 @@ function Home() {
     axios
       .all([
         axios.get("https://corona.lmao.ninja/v2/all"),
-        axios.get("https://corona.lmao.ninja/v2/countries"),
+        axios.get("https://disease.sh/v3/covid-19/countries"),
+        //axios.get("https://corona.lmao.ninja/v2/countries"),
       ])
       .then((responseArr) => {
         setLatest(responseArr[0].data);

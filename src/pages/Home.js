@@ -53,7 +53,6 @@ function Home() {
         className="text-center"
         style={{ margin: "10px" }}
       >
-        //<Card.Img variant="top" src={data.countryInfo.flag} />
          <Card.Img variant="top" src={data.countryInfo.flag} />
         <Card.Body>
           <Card.Title>{data.country}</Card.Title>
